@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: "helvetica neue", helvetica, sans-serif;
+  color: azure;
+  text-transform: uppercase;
+}
+
+#main{
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+  
+
+}
+
+#hide{
+  color: azure;
+  width: 50%;
+  height: 50%;
+}
+
+.iframeClass{
+	border: solid 1px #ff0;
+}
+
+.container {
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*flex-wrap: wrap;*/
+  /*flex-grow: 1;*/
+  display: grid;
+  place-items: center;
+  align-content: center;
+  padding: 10%;
+  padding-top: 10%;
+  
+}
+
+.container3 {
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*flex-wrap: wrap;*/
+  /*flex-grow: 1;*/
+  display: grid;
+  place-items: center;
+  align-content: center;
+  padding: 10%;
+  padding-top: 10%;
+  
+}
+
+p {
+  color: azure;
+  font-family: "helvetica neue", helvetica, sans-serif;
+  text-align: justify;
+  padding: 20px;
+  align-content: center;
+
+}
+
+p1 {
+  color: azure;
+    font-family: "helvetica neue", helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid black;
+    background: none;
+ 
+  
+    border-radius: 10px;
+    padding: 3px 10px;
+    display: none;
+    cursor: none;
+
+  
+}
+
+p2 {
+  color: azure;
+    font-family: "helvetica neue", helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid black;
+    background: none;
+ 
+  
+    border-radius: 10px;
+    padding: 3px 10px;
+    display: none;
+    cursor: none;
+
+  
+}
+
+.item {
+  display: flex;
+  min-height: 50vh;
+}
+
+#colophon{
+  background-color: red;
+}
+
+.container2 {
+  position: relative;
+  display: flex;
+  width: 80%;
+  place-items: center;
+  align-content: center;
+}
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image2 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #000000;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container2:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.container2 .wrapper{
+  display: block;
+  place-items: center;
+  align-content: center;
+
+}
+
+.text {
+  font-family: "helvetica neue", helvetica, sans-serif;
+  white-space: wrap; 
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  overflow: hidden;
+  place-items: center;
+  align-content: center;
+  top: 20%;
+  left: 20%;
+  transform: translate(-20%, -20%);
+  -ms-transform: translate(-20%, -20%);
+}
